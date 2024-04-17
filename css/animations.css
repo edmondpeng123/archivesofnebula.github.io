@@ -1,0 +1,570 @@
+.archives {
+    animation: bounce-in-top 1s ease;
+
+}
+
+.journal {
+    animation-delay: 2s;
+    animation: fadein 6s ease;
+}
+
+.images {
+    animation: rotation 6s infinite linear;
+}
+
+.spinsun1 {
+    animation: grow 8s infinite linear;
+}
+
+.spinsun2 {
+    animation: grow 4s infinite ease-in;
+}
+
+.spinsun3 {
+    animation: grow 5s infinite linear;
+}
+
+.spinsun4 {
+    animation: grow 10s infinite linear;
+}
+
+.bluesun {
+    animation: rotation 5s infinite linear;
+}
+
+.twirlx {
+    animation: rotation 4s infinite linear;
+}
+
+.endportal {
+    animation: rotation 2s infinite linear;
+}
+
+.miniflowa:hover {
+    animation: rotation 2s infinite linear;
+}
+
+.orangeflowerx:hover {
+    animation: rotation 2s infinite linear;
+}
+
+.iballsx:hover {
+    transform: scale(1.3);
+}
+
+.cloudx:hover {
+    transform: scale(1.3);
+}
+
+.greeniax:hover {
+    transform: scale(1.3);
+}
+
+.bro1x:hover {
+    animation: rotation 0.2s infinite linear;
+}
+
+.gtwirl {
+    animation: rotation 4s infinite linear;
+}
+
+.itwirl {
+    animation: rotation 4s infinite linear;
+}
+
+.ctwirl {
+    animation: rotation 4s infinite linear;
+}
+
+.orange {
+    animation: grow 4s infinite linear;
+}
+
+.orange2 {
+    animation: grow 4s infinite ease-in-out;
+}
+
+.orange3 {
+    animation: grow 4s infinite ease;
+}
+
+
+.orangesunnx:hover {
+    animation: rotation 2s infinite linear;
+}
+
+.motifx {
+    animation: rotation 3s infinite linear;
+}
+
+.whitestar {
+    animation: grow 1s infinite ease;
+}
+
+.endstar {
+    animation: grow 2s infinite ease;
+}
+
+.endstar1 {
+    animation: grow 2s infinite ease;
+}
+
+.endstar2 {
+    animation: grow 2s infinite ease;
+}
+
+.cflowerx {
+    animation: rotation 6s infinite linear;
+}
+
+.cstars {
+    animation: rotation 6s infinite linear;
+}
+
+.cstars1 {
+    animation: rotation 6s infinite linear;
+}
+
+.cstars2 {
+    animation: rotation 6s infinite linear;
+}
+
+.ctitle {
+    animation: bounce-in-top 1s ease;
+}
+
+.ititle {
+    animation: bounce-in-top 1s ease;
+}
+
+.gtitle {
+    animation: bounce-in-top 1s ease;
+}
+
+.cloudian:hover {
+    animation: sleep 2s ease;
+
+
+}
+
+
+.cloudson:hover {
+    animation: jittery 0.3s infinite ease-in-out;
+}
+
+.cloudflower1 {
+    animation: hovering 4s infinite linear;
+
+}
+
+.cloudflower2 {
+    animation: hovering 8s infinite linear;
+}
+
+.cloudflower3 {
+    animation: hovering 3s infinite linear;
+}
+
+.cplanetx {
+    animation: hovering 6s infinite linear;
+}
+
+.iblueplantx {
+    animation: hovering 3s infinite linear;
+}
+
+.iorangeplantx {
+    animation: hovering 6s infinite linear;
+}
+
+.itreesx {
+    animation: tilting 3s infinite linear;
+}
+
+.spinny {
+    animation: jumping 1s infinite linear;
+}
+
+.spinny1:hover {
+    animation: jumping 0.2s infinite linear;
+}
+
+.spinny2:hover {
+    animation: jumping 6s infinite linear;
+}
+
+.spinny3:hover {
+    animation: jumping 2s infinite linear;
+}
+
+.spinbro1 {
+    animation: rotation 3s infinite linear;
+}
+
+.spinbro2 {
+    animation: rotation 0.2s infinite linear;
+}
+
+.spinbro {
+    animation: rotation 1s infinite linear;
+}
+
+.bro1 {
+    animation: rotation 3s infinite linear;
+}
+
+
+.bro4 {
+    animation: rotation 10s infinite linear;
+}
+
+.bro6 {
+    animation: rotation 0.2s infinite linear;
+}
+
+.bro8 {
+    animation: rotation 1s infinite linear;
+}
+
+.bro10 {
+    animation: rotation 4s infinite ease;
+}
+
+
+.bro13 {
+    animation: rotation 1s infinite linear;
+}
+
+.bro15 {
+    animation: rotation 6s infinite ease-in-out;
+}
+
+.bro16 {
+    animation: rotation 1s infinite linear;
+}
+
+
+
+.bro20 {
+    animation: rotation 2s infinite ease;
+}
+
+
+.bro23 {
+    animation: rotation 3s infinite linear;
+}
+
+.iflowerx {
+    animation: rotation 5s infinite linear;
+}
+
+.iflowersx {
+    animation: rotation 5s infinite linear;
+}
+
+.endtitle {
+    animation: fadein 4s ease;
+}
+
+.iplanetx {
+    animation: hovering 8s infinite linear;
+    
+}
+
+.cplanetx {
+    animation: hovering 8s infinite linear;
+}
+
+.gplanetx {
+    animation: hovering 8s infinite linear;
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+
+
+@keyframes tilting {
+    0% {
+        transform:rotate(0deg)
+    }
+    33% {transform: rotate(25deg);
+    }
+
+    66% {
+        transform: rotate(-25deg);
+    }
+    
+    100% {
+        transform:rotate(0deg)
+    }
+}
+
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0em);
+    }
+
+    50% {
+        transform: translateY(2em);
+    }
+
+    100% {
+        transform: translateY(0em);
+    }
+}
+
+@keyframes hovering {
+    0% {
+        transform: translateY(-5em);
+    }
+
+    25% {
+        transform: translateY(0em);
+    }
+
+    50% {
+        transform: translateY(-7em);
+    }
+
+    75% {
+        transform: translateY(1em);
+    }
+
+    100% {
+        transform: translateY(-5em);
+
+    }
+}
+
+@keyframes jittery {
+    10% {
+        transform: translate(-2px, -3px) scale(1.01, 1.01);
+    }
+
+    20% {
+        transform: translate(3px, 2px) scale(.99, .99);
+    }
+
+    30% {
+        transform: translate(-4px, -5px) scale(1.01, 1.01);
+    }
+
+    40% {
+        transform: translate(2px, 3px) scale(1, 1);
+    }
+
+    50% {
+        transform: translate(-1px, -2px) scale(.98, .98);
+    }
+
+    60% {
+        transform: translate(0px, 3px) scale(1.02, 1.02);
+    }
+
+    70% {
+        transform: translate(-2px, -4px) scale(1, 1);
+    }
+
+    80% {
+        transform: translate(3px, 5px) scale(.99, .99);
+    }
+
+    90% {
+        transform: translate(-5px, -3px) scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: translate(3px, 1px) scale(.95, .95);
+    }
+}
+
+
+@keyframes sleep {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    0% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+
+    }
+
+    50% {
+        transform: scale(1);
+
+
+    }
+
+    100% {
+        transform: scale(0);
+
+    }
+}
+
+
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}

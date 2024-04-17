@@ -1,0 +1,2866 @@
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+  /* background: url(../images/main/backgradient4.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgb(0, 0, 0);
+  margin: 0.5em;
+}
+
+.title {
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+
+}
+
+.archives {
+
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1 / 5;
+  grid-row: 1 / 3;
+  border-bottom: solid 0.05em white;
+
+}
+
+.journal {
+
+
+  margin-right: 1em;
+  margin-top: 1.5em;
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-row: 3/4;
+  grid-column: 1/ 4;
+
+
+
+
+}
+
+
+.miniflowa {
+  width: 80%;
+  height: 80%;
+  animation: rotation 3s infinite linear;
+
+
+}
+
+.images {
+
+  width: 50%;
+  height: 50%;
+  object-fit: fill;
+
+
+}
+
+.whiteflower1 {
+
+  place-self: center;
+  grid-column: 4/6;
+  grid-row: 3/4;
+
+}
+
+.whiteflower2 {
+
+  place-self: center;
+  grid-column: 5/7;
+  grid-row: 3/4;
+
+}
+
+.whiteflower3 {
+
+  place-self: center;
+  grid-column: 5/7;
+  grid-row: 2/3;
+  display: none;
+
+
+}
+
+.whitesuns {
+
+  place-self: center;
+  grid-column: 5/7;
+  grid-row: 2/3;
+
+
+
+}
+
+.spinsun {
+
+  width: 80%;
+  height: 80%;
+
+
+}
+
+.spinsun1 {
+
+  grid-column: 1/3;
+  grid-row: 5/6;
+  place-self: center;
+}
+
+.spinsun2 {
+
+  grid-column: 3/5;
+  grid-row: 5/6;
+  place-self: center;
+}
+
+.spinsun3 {
+
+  grid-column: 5/7;
+  grid-row: 5/6;
+  place-self: center;
+}
+
+.spinsun4 {
+  margin-top: 10em;
+  grid-column: 7/9;
+  grid-row: 5/6;
+  display: none;
+}
+
+
+.notes {
+  display: grid;
+  box-sizing: border-box;
+  height: 120vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.notetitle {
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  grid-column: 1/7;
+  grid-row: 1/2;
+  /*border: solid 2px white;*/
+
+
+
+}
+
+.notetext {
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/5;
+  grid-row: 2/4;
+  /*border: solid 2px white;*/
+
+}
+
+.visualtext {
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 4/7;
+  grid-row: 5/7;
+  /*border: solid 2px white;*/
+
+  text-align: right;
+}
+
+.bluesun {
+  grid-column: 5/7;
+  grid-row: 1/2;
+  place-self: center;
+
+}
+
+.bluesunx {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.orangeflower {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  place-self: center;
+
+}
+
+.orangeflowerx {
+  width: 50%;
+  height: 50%;
+
+}
+
+.whiteflowa {
+  grid-column: 3/2;
+  grid-row: 5/4;
+  display: none;
+}
+
+.ovals {
+  align-self: center;
+  grid-column: 1/7;
+  grid-row: 8/9;
+  /*transform: rotate(8deg);*/
+
+}
+
+.ovalsx {
+  width: 100%;
+  height: 100%;
+
+}
+
+.afteroval {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.flower1 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.flower2 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.finaltext {
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  /*border: solid 2px white;*/
+  margin: 1em;
+  text-align: left;
+}
+
+.flower1 {
+  align-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.flower2 {
+  align-self: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+
+.twirl1 {
+  align-self: center;
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.twirl2 {
+  align-self: center;
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.twirl3 {
+  align-self: center;
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+.twirlx {
+  width: 90%;
+  height: 90%;
+  object-fit: fill;
+}
+
+.orange {
+  align-self: center;
+  grid-column: 6/7;
+  grid-row: 5/6;
+  display: none;
+}
+
+.orange2 {
+  align-self: center;
+  grid-column: 8/9;
+  grid-row: 5/6;
+  display: none;
+}
+
+.orange3 {
+  align-self: center;
+  grid-column: 7/8;
+  grid-row: 5/6;
+  display: none;
+}
+
+.orangex {
+  width: 50%;
+  height: 50%;
+  display: none;
+
+}
+
+.nebula {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 190vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+}
+
+.nebulatitle {
+
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1 / 4;
+  grid-row: 1/ 2;
+}
+
+.nebulatext {
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/7;
+  grid-row: 2/3;
+  /*border: solid 2px white;*/
+  text-align: left;
+}
+
+.orangesunn {
+  align-self: center;
+  grid-column: 5/7;
+  grid-row: 1/2;
+}
+
+.orangesunnx {
+  width: 70%;
+  height: 70%;
+
+}
+
+.motif {
+  align-self: center;
+  grid-column: 3/7;
+  grid-row: 3/5;
+  display: none;
+
+}
+
+.motifx {
+  width: 30%;
+  height: 30%;
+}
+
+.iballs {
+  align-self: center;
+  grid-column: 3/7;
+  grid-row: 4/7;
+}
+
+.iballsx {
+
+  width: 90%;
+  height: 90%;
+}
+
+.cloud {
+  align-self: center;
+  grid-column: 1/7;
+  grid-row: 3/6;
+}
+
+.cloudx {
+  width: 60%;
+  height: 60%;
+}
+
+.greenia {
+  align-self: center;
+  grid-column: 3/7;
+  grid-row: 2/5;
+}
+
+.greeniax {
+  width: 90%;
+  height: 90%;
+}
+
+.portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200vh;
+  padding: 0.5em;
+
+}
+
+.whitestar {
+  padding: 0;
+  margin: 0;
+
+
+}
+
+.whitestarxx {
+
+  width: 100%;
+  height: 100%;
+}
+
+.endportalx {
+  width: 80%;
+  height: 80%;
+}
+
+
+
+
+.iballstitle {
+  display: grid;
+  box-sizing: border-box;
+  height: 60vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: solid 4px white;
+
+}
+
+.ititle {
+
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1/8;
+  grid-row: 1/2;
+
+}
+
+.iflower {
+
+  grid-column: 8/9;
+  grid-row: 1/2;
+  align-self: center;
+}
+
+.iflowerx {
+  width: 70%;
+  height: 70%;
+}
+
+.iborder {}
+
+.inotestitle {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  grid-column: 1/5;
+  grid-row: 3/2;
+  align-content: flex-end;
+  /*border-bottom: solid 4px white;*/
+}
+
+.inotes {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/5;
+  grid-row: 3/5;
+}
+
+.iplanet {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 5/9;
+
+
+
+}
+
+.iplanetx {
+  width: 60%;
+  height: 60%;
+
+
+}
+
+.eee1 {
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: solid 4px white;
+}
+
+.eee {
+
+  align-self: center;
+  grid-column: 1/5;
+  grid-row: 1/4;
+}
+
+.eeex {
+  width: 90%;
+  height: 90%;
+}
+
+.traittitle {
+  align-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  color: white;
+  grid-column: 5/9;
+  grid-row: 1/2;
+}
+
+.traittext {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 5/9;
+  grid-row: 2/3;
+}
+
+.iflowers {
+  grid-column: 5/6;
+  grid-row: 4/3;
+  align-self: center;
+}
+
+.iflowers1 {
+  grid-column: 6/7;
+  grid-row: 4/3;
+  align-self: center;
+}
+
+.iflowers2 {
+  grid-column: 7/8;
+  grid-row: 4/3;
+  align-self: center;
+}
+
+.iflowersx {
+
+  width: 80%;
+  height: 80%;
+}
+
+.iconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 4/7;
+}
+
+.iblueplant {
+  align-self: center;
+  grid-column: 3/6;
+  grid-row: 7/9;
+}
+
+.iblueplantx {
+  width: 90%;
+  height: 90%;
+}
+
+.iorangeplant {
+  align-self: center;
+  grid-column: 4/7;
+  grid-row: 7/9;
+}
+
+.iorangeplantx {
+  width: 100%;
+  height: 100%;
+}
+
+.eee2 {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+
+}
+
+.blind {
+  align-self: center;
+  grid-column: 5/9;
+  grid-row: 3/6;
+
+}
+
+.blindx {
+  width: 70%;
+  height: 70%;
+}
+
+.blindconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/8;
+  grid-row: 6/9;
+}
+
+.itrees {
+  align-self: center;
+  grid-column: 2/5;
+  grid-row: 1/4;
+}
+
+.itreesx {
+  width: 100%;
+  height: 100%;
+}
+
+.iballsend {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iclick {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.iend {}
+
+.itwirl {
+
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.cloudtitle {
+  display: grid;
+  box-sizing: border-box;
+  height: 60vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: solid 4px white;
+
+}
+
+.ctitle {
+
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1/9;
+  grid-row: 1/3;
+
+}
+
+.cflower {
+
+  grid-column: 8/9;
+  grid-row: 1/2;
+  align-self: center;
+  display: none;
+}
+
+.cflowerx {
+  width: 70%;
+  height: 70%;
+}
+
+.cborder {}
+
+.cnotestitle {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  grid-column: 1/5;
+  grid-row: 4/5;
+  align-content: flex-end;
+
+
+  /*border-bottom: solid 4px white;*/
+}
+
+.cnotes {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/6;
+  grid-row: 5/7;
+}
+
+.cplanet {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 5/9;
+}
+
+.cplanetx {
+  width: 70%;
+  height: 70%;
+}
+
+.cloudian1 {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+}
+
+.cloudian {
+
+  align-self: center;
+  grid-column: 5/9;
+  grid-row: 2/4;
+}
+
+.cloudianx {
+  width: 100%;
+  height: 100%;
+}
+
+.ctraittitle {
+  align-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  color: white;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.ctraittext {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+
+
+
+.cconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 5/7;
+}
+
+.cloudflower1 {
+  align-self: center;
+  grid-column: 2/4;
+  grid-row: 8/9;
+}
+
+.cloudflower1x {
+  width: 60%;
+  height: 60%;
+}
+
+.cloudflower2 {
+  align-self: center;
+  grid-column: 7/9;
+  grid-row: 8/9;
+
+}
+
+.cloudflower2x {
+  width: 70%;
+  height: 70%;
+}
+
+.cloudflower3 {
+  align-self: center;
+  grid-column: 4/6;
+  grid-row: 8/9;
+}
+
+.cloudflower3x {
+  width: 120%;
+  height: 120%;
+}
+
+.cloudduo {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 120vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+
+}
+
+.clouddad {
+  align-self: center;
+  grid-column: 2/7;
+  grid-row: 1/5;
+
+}
+
+.clouddadx {
+  width: 80%;
+  height: 80%;
+}
+
+.cloudson {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 1/6;
+}
+
+.cloudsonx {
+  width: 40%;
+  height: 40%;
+}
+
+.cloudconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 5/7;
+}
+
+.cstars {
+  align-self: center;
+  grid-column: 2/4;
+  grid-row: 7/9;
+}
+
+.cstarsx {
+  width: 50%;
+  height: 50%;
+}
+
+.cstars1 {
+  align-self: center;
+  grid-column: 4/6;
+  grid-row: 7/9;
+}
+
+.cstars1x {
+  width: 50%;
+  height: 50%;
+}
+
+.cstars2 {
+  align-self: center;
+  grid-column: 6/8;
+  grid-row: 7/9;
+}
+
+.cstars2x {
+  width: 50%;
+  height: 50%;
+}
+
+
+.cloudend {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cclick {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+}
+
+.cend {}
+
+.ctwirl {
+  width: 100%;
+  height: 100%;
+
+}
+
+.greentitle {
+  display: grid;
+  box-sizing: border-box;
+  height: 80vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: solid 4px white;
+
+}
+
+.gtitle {
+
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1/9;
+  grid-row: 1/2;
+
+}
+
+
+.gborder {}
+
+.gnotestitle {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  align-content: flex-end;
+
+
+
+  /*border-bottom: solid 4px white;*/
+}
+
+.gnotes {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  grid-column: 1/5;
+  grid-row: 3/5;
+}
+
+.gplanet {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 5/9;
+}
+
+.gplanetx {
+  width: 80%;
+  height: 80%;
+}
+
+.spins {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: solid 4px white;
+}
+
+.spinny {
+
+  align-self: center;
+  grid-column: 1/5;
+  grid-row: 1/5;
+}
+
+.spinnyx {
+  width: 100%;
+  height: 100%;
+}
+
+.gtraittitle {
+  align-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  color: white;
+  grid-column: 5/9;
+  grid-row: 1/2;
+}
+
+.gtraittext {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 5/9;
+  grid-row: 2/4;
+}
+
+
+
+.gconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 5/7;
+}
+
+.spinny1 {
+  align-self: center;
+  grid-column: 5/7;
+  grid-row: 7/9;
+}
+
+.spinny1x {
+  width: 60%;
+  height: 60%;
+}
+
+.spinny2 {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 6/9;
+
+}
+
+.spinny2x {
+  width: 70%;
+  height: 70%;
+}
+
+.spinny3 {
+  align-self: center;
+  grid-column: 2/4;
+  grid-row: 7/9;
+}
+
+.spinny3x {
+  width: 120%;
+  height: 120%;
+}
+
+.brothers {
+  display: grid;
+  box-sizing: border-box;
+  height: 150vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+
+
+}
+
+
+.bro1 {
+  align-self: center;
+  grid-column: 5/8;
+  grid-row: 3/6;
+}
+
+.bro1x {
+  width: 20%;
+  height: 20%;
+}
+
+.bro2 {
+  align-self: center;
+  grid-column: 6/9;
+  grid-row: 3/6;
+}
+
+.bro3 {
+  align-self: center;
+  grid-column: 3/6;
+  grid-row: 3/6;
+}
+
+.bro4 {
+  align-self: center;
+  grid-column: 1/3;
+  grid-row: 3/6;
+}
+
+.bro5 {
+  align-self: center;
+  grid-column: 2/5;
+  grid-row: 3/6;
+}
+
+.bro6 {
+  align-self: center;
+  grid-column: 7/8;
+  grid-row: 3/6;
+}
+
+.bro7 {
+  align-self: center;
+  grid-column: 5/8;
+  grid-row: 4/7;
+}
+
+.bro8 {
+  align-self: center;
+  grid-column: 5/8;
+  grid-row: 1/3;
+}
+
+.bro9 {
+  align-self: center;
+  grid-column: 5/8;
+  grid-row: 2/5;
+}
+
+.bro10 {
+  align-self: center;
+  grid-column: 5/8;
+  grid-row: 8/9;
+}
+
+.bro11 {
+  align-self: center;
+  grid-column: 8/9;
+  grid-row: 5/3;
+}
+
+.bro12 {
+  align-self: center;
+  grid-column: 7/9;
+  grid-row: 3/5;
+}
+
+.bro13 {
+  align-self: center;
+  grid-column: 4/9;
+  grid-row: 2/3;
+}
+
+.bro14 {
+  align-self: center;
+  grid-column: 7/9;
+  grid-row: 2/5;
+}
+
+.bro15 {
+  align-self: center;
+  grid-column: 7/9;
+  grid-row: 1/5;
+}
+
+.bro16 {
+  align-self: center;
+  grid-column: 8/9;
+  grid-row: 5/7;
+}
+
+.bro17 {
+  align-self: center;
+  grid-column: 4/9;
+  grid-row: 2/5;
+}
+
+.bro18 {
+  align-self: center;
+  grid-column: 7/9;
+  grid-row: 3/5;
+}
+
+.bro19 {
+  align-self: center;
+  grid-column: 8/9;
+  grid-row: 2/7;
+}
+
+.bro20 {
+  align-self: center;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.bro21 {
+  align-self: center;
+  grid-column: 1/2;
+  grid-row: 9/6;
+}
+
+.bro22 {
+  align-self: center;
+  grid-column: 5/9;
+  grid-row: 4/5;
+}
+
+.bro23 {
+  align-self: center;
+  grid-column: 8/4;
+  grid-row: 5/7;
+}
+
+.bro24 {
+  align-self: center;
+  grid-column: 7/4;
+  grid-row: 2/4;
+}
+
+
+.spinconvo {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 1/7;
+  grid-row: 2/5;
+}
+
+.spinbro {
+  align-self: center;
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.spinbrox {
+  width: 50%;
+  height: 50%;
+}
+
+.spinbro1 {
+  align-self: center;
+  grid-column: 2/4;
+  grid-row: 5/7;
+}
+
+.spinbro1x {
+  width: 50%;
+  height: 50%;
+}
+
+.spinbro2 {
+  align-self: center;
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.spinbro2x {
+  width: 50%;
+  height: 50%;
+}
+
+
+.spinend {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gclick {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+}
+
+.gend {}
+
+.gtwirl {
+  width: 100%;
+  height: 100%;
+
+}
+
+.theend {
+
+  display: grid;
+  box-sizing: border-box;
+  height: 200vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.endstar {
+  align-self: center;
+  grid-column: 3/2;
+  grid-row: 1/2;
+}
+
+.endstarx {
+  width: 100%;
+  height: 100%;
+}
+
+.endstar1 {
+  align-self: center;
+  grid-column: 5/4;
+  grid-row: 1/2;
+}
+
+.endstar1x {
+  width: 100%;
+  height: 100%;
+}
+
+.endstar2 {
+  align-self: center;
+  grid-column: 7/6;
+  grid-row: 1/2;
+}
+
+.endstar2x {
+  width: 100%;
+  height: 100%;
+}
+
+.endtitle {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 4em;
+  grid-column: 1/9;
+  grid-row: 2/3;
+}
+
+.endnotestitle {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 3/4;
+  align-self: flex-end;
+}
+
+.endnotes {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  color: white;
+  grid-column: 2/7;
+  grid-row: 4/5;
+  margin-bottom: 10em;
+}
+
+.endportal {
+  align-self: center;
+  grid-column: 6/3;
+  grid-row: 5/8;
+  margin-bottom: 5em;
+}
+
+.endportalx {
+  width: 100%;
+  height: 100%;
+}
+
+#nebulax {}
+
+#iballsgradient {
+  background: url(../images/main/iballsgradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#cloudgradient {
+  background: url(../images/main/cloudgradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#spingradient {
+  background: url(../images/main/spingradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#ends {
+  background: url(../images/main/backgradient4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#abouts {
+  background: url(../images/main/backgradient4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+
+.aboutx {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+
+}
+
+
+
+@media only screen and (min-width: 980px) {
+
+  .inconsolata {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  body {
+    /* background: url(../images/main/backgradient4.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(0, 0, 0);
+    margin: 4.5em;
+
+  }
+
+  .title {
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+
+
+  }
+
+  .archives {
+
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    border: none;
+
+  }
+
+  .journal {
+
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 6 / 8;
+    grid-row: 1/4;
+
+
+
+  }
+
+  .miniflowa {
+    margin-top: 1.7em;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+
+  }
+
+  .images {
+
+    width: 80%;
+    height: 80%;
+    object-fit: fill;
+
+
+  }
+
+  .whiteflower1 {
+
+    place-self: center;
+    grid-column: 8 / 9;
+    grid-row: 3/4;
+
+  }
+
+  .whiteflower2 {
+
+    place-self: center;
+    grid-column: 7/8;
+    grid-row: 3/4;
+
+  }
+
+  .whiteflower3 {
+
+    place-self: center;
+    grid-column: 8/9;
+    grid-row: 2/3;
+
+
+  }
+
+  .whitesuns {
+
+    place-self: center;
+    grid-column: 8/9;
+    grid-row: 1/2;
+
+  }
+
+  /*.border {
+  margin-top: 1em;
+  height: 50%;
+  background-color: blue;
+  border-radius: 15px;
+  grid-column: 1/9;
+  grid-row:5/4 ; 
+}*/
+  .spinsun {
+
+    width: 95%;
+    height: 95%;
+  }
+
+  .spinsun1 {
+    margin-top: 10em;
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  .spinsun2 {
+    margin-top: 10em;
+    grid-column: 3/5;
+    grid-row: 5/6;
+  }
+
+  .spinsun3 {
+    margin-top: 10em;
+    grid-column: 5/7;
+    grid-row: 5/6;
+  }
+
+  .spinsun4 {
+    margin-top: 10em;
+    grid-column: 7/9;
+    grid-row: 5/6;
+  }
+
+  .notes {
+    display: grid;
+    box-sizing: border-box;
+    height: 200vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+  }
+
+  .notetitle {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    /*border: solid 2px white;*/
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+
+
+  }
+
+  .notetext {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    /*border: solid 2px white;*/
+    margin: 1em;
+  }
+
+  .visualtext {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 7/9;
+    grid-row: 5/4;
+    /*border: solid 2px white;*/
+    margin: 1em;
+    text-align: right;
+  }
+
+  .bluesun {
+    grid-column: 7/8;
+    grid-row: 1/2;
+  }
+
+  .bluesunx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .orangeflower {
+    grid-column: 8/9;
+    grid-row: 1/2;
+  }
+
+  .orangeflowerx {
+    width: 50%;
+    height: 50%;
+  }
+
+  .whiteflowa {
+    grid-column: 3/2;
+    grid-row: 5/4;
+  }
+
+  .ovals {
+    align-self: center;
+    grid-column: 1/9;
+    grid-row: 7/9;
+    /*transform: rotate(8deg);*/
+  }
+
+  .ovalsx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .afteroval {
+
+    display: grid;
+    box-sizing: border-box;
+    height: 200vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+  }
+
+  .flower1 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .flower2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .finaltext {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    /*border: solid 2px white;*/
+    margin: 1em;
+    text-align: left;
+  }
+
+  .twirl1 {
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 7/9;
+  }
+
+  .twirl2 {
+    align-self: center;
+    grid-column: 4/6;
+    grid-row: 7/9;
+  }
+
+  .twirl3 {
+    align-self: center;
+    grid-column: 6/9;
+    grid-row: 7/9;
+  }
+
+  .twirlx {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+  }
+
+  .orange {
+    align-self: center;
+    grid-column: 6/7;
+    grid-row: 5/6;
+  }
+
+  .orange2 {
+    align-self: center;
+    grid-column: 8/9;
+    grid-row: 5/6;
+  }
+
+  .orange3 {
+    align-self: center;
+    grid-column: 7/8;
+    grid-row: 5/6;
+  }
+
+  .orangex {
+    width: 50%;
+    height: 50%;
+
+  }
+
+  .nebula {
+
+    display: grid;
+    box-sizing: border-box;
+    height: 230vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    margin-top: 10em;
+  }
+
+  .nebulatitle {
+
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+  }
+
+  .nebulatext {
+    margin-top: 2em;
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 7/9;
+    grid-row: 2/4;
+    /*border: solid 2px white;*/
+    margin: 1em;
+    text-align: right;
+  }
+
+  .orangesunn {
+    margin-top: 6em;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 5/6;
+  }
+
+  .orangesunnx {
+    width: 30%;
+    height: 30%;
+
+  }
+
+  .motif {
+    align-self: center;
+    grid-column: 6/8;
+    grid-row: 4/5;
+
+  }
+
+  .motifx {
+    width: 10%;
+    height: 10%;
+  }
+
+  .iballs {
+    align-self: center;
+    grid-column: 4/8;
+    grid-row: 7/8;
+  }
+
+  .iballsx {
+
+    width: 50%;
+    height: 50%;
+  }
+
+  .cloud {
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 7/8;
+  }
+
+  .cloudx {
+    width: 60%;
+    height: 60%;
+  }
+
+  .greenia {
+    align-self: center;
+    grid-column: 7/9;
+    grid-row: 7/8;
+  }
+
+  .greeniax {
+    width: 70%;
+    height: 70%;
+  }
+
+  .portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 350vh;
+    padding: 0.5em;
+
+  }
+
+  .whitestar {
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .endportal {}
+
+
+
+  .iballstitle {
+    display: grid;
+    box-sizing: border-box;
+    height: 120vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+
+  }
+
+  .ititle {
+
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 1/8;
+    grid-row: 1/2;
+
+  }
+
+  .iflower {
+
+    grid-column: 8/9;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  .iflowerx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .iborder {}
+
+  .inotestitle {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-content: flex-end;
+    margin-top: 2em;
+
+    padding-bottom: 0.5em;
+    /*border-bottom: solid 4px white;*/
+  }
+
+  .inotes {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  .iplanet {
+    align-self: center;
+    grid-column: 5/9;
+    grid-row: 3/7;
+  }
+
+  .iplanetx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .eee1 {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+  }
+
+  .eee {
+    margin-top: 10em;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+
+  .eeex {
+    width: 100%;
+    height: 100%;
+  }
+
+  .traittitle {
+    align-content: flex-end;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 1/2;
+  }
+
+  .traittext {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 2/4;
+  }
+
+  .iflowers {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    align-self: center;
+  }
+
+  .iflowers1 {
+    grid-column: 6/7;
+    grid-row: 4/5;
+    align-self: center;
+  }
+
+  .iflowers2 {
+    grid-column: 7/8;
+    grid-row: 4/5;
+    align-self: center;
+  }
+
+  .iflowersx {
+
+    width: 80%;
+    height: 80%;
+  }
+
+  .iconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 6/9;
+  }
+
+  .iblueplant {
+    align-self: center;
+    grid-column: 6/8;
+    grid-row: 6/8;
+  }
+
+  .iblueplantx {
+    width: 90%;
+    height: 90%;
+  }
+
+  .iorangeplant {
+    align-self: center;
+    grid-column: 5/7;
+    grid-row: 6/8;
+  }
+
+  .iorangeplantx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .eee2 {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+
+
+  }
+
+  .blind {
+    align-self: center;
+    grid-column: 6/9;
+    grid-row: 2/5;
+
+  }
+
+  .blindx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .blindconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 2/5;
+  }
+
+  .itrees {
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 5/7;
+  }
+
+  .itreesx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .iballsend {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .iclick {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .iend {}
+
+  .itwirl {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  .cloudtitle {
+    display: grid;
+    box-sizing: border-box;
+    height: 120vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+
+  }
+
+  .ctitle {
+
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 1/8;
+    grid-row: 1/2;
+
+  }
+
+  .cflower {
+
+    grid-column: 8/9;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  .cflowerx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .cborder {}
+
+  .cnotestitle {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-content: flex-end;
+    margin-top: 2em;
+
+    padding-bottom: 0.5em;
+    /*border-bottom: solid 4px white;*/
+  }
+
+  .cnotes {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  .cplanet {
+    align-self: center;
+    grid-column: 5/9;
+    grid-row: 3/7;
+  }
+
+  .cplanetx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .cloudian1 {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+  }
+
+  .cloudian {
+    margin-top: 10em;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+
+  .cloudianx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ctraittitle {
+    align-content: flex-end;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 1/2;
+  }
+
+  .ctraittext {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 2/4;
+  }
+
+
+
+  .cconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 6/9;
+  }
+
+  .cloudflower1 {
+    align-self: center;
+    grid-column: 5/7;
+    grid-row: 6/8;
+  }
+
+  .cloudflower1x {
+    width: 60%;
+    height: 60%;
+  }
+
+  .cloudflower2 {
+    align-self: center;
+    grid-column: 6/8;
+    grid-row: 4/7;
+
+  }
+
+  .cloudflower2x {
+    width: 70%;
+    height: 70%;
+  }
+
+  .cloudflower3 {
+    align-self: center;
+    grid-column: 7/8;
+    grid-row: 6/8;
+  }
+
+  .cloudflower3x {
+    width: 120%;
+    height: 120%;
+  }
+
+  .cloudduo {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+
+
+  }
+
+  .clouddad {
+    align-self: center;
+    grid-column: 5/9;
+    grid-row: 2/5;
+
+  }
+
+  .clouddadx {
+    width: 80%;
+    height: 80%;
+  }
+
+  .cloudson {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 3/6;
+  }
+
+  .cloudsonx {
+    width: 20%;
+    height: 20%;
+  }
+
+  .cloudconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 2/5;
+  }
+
+  .cstars {
+    align-self: center;
+    grid-column: 1/3;
+    grid-row: 5/7;
+  }
+
+  .cstarsx {
+    width: 50%;
+    height: 50%;
+  }
+
+  .cstars1 {
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 5/7;
+  }
+
+  .cstars1x {
+    width: 50%;
+    height: 50%;
+  }
+
+  .cstars2 {
+    align-self: center;
+    grid-column: 3/5;
+    grid-row: 5/7;
+  }
+
+  .cstars2x {
+    width: 50%;
+    height: 50%;
+  }
+
+
+  .cloudend {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cclick {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .cend {}
+
+  .ctwirl {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .greentitle {
+    display: grid;
+    box-sizing: border-box;
+    height: 120vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+
+  }
+
+  .gtitle {
+
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 1/9;
+    grid-row: 1/2;
+
+  }
+
+
+  .gborder {}
+
+  .gnotestitle {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-content: flex-end;
+    margin-top: 2em;
+
+    padding-bottom: 0.5em;
+    /*border-bottom: solid 4px white;*/
+  }
+
+  .gnotes {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  .gplanet {
+    align-self: center;
+    grid-column: 5/9;
+    grid-row: 3/7;
+  }
+
+  .gplanetx {
+    width: 70%;
+    height: 70%;
+  }
+
+  .spins {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-bottom: solid 4px white;
+  }
+
+  .spinny {
+    margin-top: 10em;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+
+  .spinnyx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gtraittitle {
+    align-content: flex-end;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 1/2;
+  }
+
+  .gtraittext {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 2/4;
+  }
+
+
+
+  .gconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 6/9;
+  }
+
+  .spinny1 {
+    align-self: center;
+    grid-column: 5/7;
+    grid-row: 6/8;
+  }
+
+  .spinny1x {
+    width: 60%;
+    height: 60%;
+  }
+
+  .spinny2 {
+    align-self: center;
+    grid-column: 6/8;
+    grid-row: 4/7;
+
+  }
+
+  .spinny2x {
+    width: 70%;
+    height: 70%;
+  }
+
+  .spinny3 {
+    align-self: center;
+    grid-column: 7/8;
+    grid-row: 6/8;
+  }
+
+  .spinny3x {
+    width: 120%;
+    height: 120%;
+  }
+
+  .brothers {
+    margin-top: 5em;
+    display: grid;
+    box-sizing: border-box;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+
+
+  }
+
+
+  .bro1 {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 3/6;
+  }
+
+  .bro1x {
+    width: 20%;
+    height: 20%;
+  }
+
+  .bro2 {
+    align-self: center;
+    grid-column: 6/9;
+    grid-row: 3/6;
+  }
+
+  .bro3 {
+    align-self: center;
+    grid-column: 3/6;
+    grid-row: 3/6;
+  }
+
+  .bro4 {
+    align-self: center;
+    grid-column: 1/3;
+    grid-row: 3/6;
+  }
+
+  .bro5 {
+    align-self: center;
+    grid-column: 2/5;
+    grid-row: 3/6;
+  }
+
+  .bro6 {
+    align-self: center;
+    grid-column: 7/8;
+    grid-row: 3/6;
+  }
+
+  .bro7 {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 4/7;
+  }
+
+  .bro8 {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 1/3;
+  }
+
+  .bro9 {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 2/5;
+  }
+
+  .bro10 {
+    align-self: center;
+    grid-column: 5/8;
+    grid-row: 8/9;
+  }
+
+  .bro11 {
+    align-self: center;
+    grid-column: 8/9;
+    grid-row: 5/3;
+  }
+
+  .bro12 {
+    align-self: center;
+    grid-column: 7/9;
+    grid-row: 3/5;
+  }
+
+  .bro13 {
+    align-self: center;
+    grid-column: 4/9;
+    grid-row: 2/3;
+  }
+
+  .bro14 {
+    align-self: center;
+    grid-column: 7/9;
+    grid-row: 2/5;
+  }
+
+  .bro15 {
+    align-self: center;
+    grid-column: 7/9;
+    grid-row: 1/5;
+  }
+
+  .bro16 {
+    align-self: center;
+    grid-column: 8/9;
+    grid-row: 5/7;
+  }
+
+  .bro17 {
+    align-self: center;
+    grid-column: 4/9;
+    grid-row: 2/5;
+  }
+
+  .bro18 {
+    align-self: center;
+    grid-column: 7/9;
+    grid-row: 3/5;
+  }
+
+  .bro19 {
+    align-self: center;
+    grid-column: 8/9;
+    grid-row: 2/7;
+  }
+
+  .bro20 {
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  .bro21 {
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 9/6;
+  }
+
+  .bro22 {
+    align-self: center;
+    grid-column: 5/9;
+    grid-row: 4/5;
+  }
+
+  .bro23 {
+    align-self: center;
+    grid-column: 8/4;
+    grid-row: 5/7;
+  }
+
+  .bro24 {
+    align-self: center;
+    grid-column: 7/4;
+    grid-row: 2/4;
+  }
+
+
+  .spinconvo {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 2/5;
+  }
+
+  .spinbro {
+    align-self: center;
+    grid-column: 1/3;
+    grid-row: 5/7;
+  }
+
+  .spinbrox {
+    width: 50%;
+    height: 50%;
+  }
+
+  .spinbro1 {
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 5/7;
+  }
+
+  .spinbro1x {
+    width: 50%;
+    height: 50%;
+  }
+
+  .spinbro2 {
+    align-self: center;
+    grid-column: 3/5;
+    grid-row: 5/7;
+  }
+
+  .spinbro2x {
+    width: 50%;
+    height: 50%;
+  }
+
+
+  .spinend {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .gclick {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .gend {}
+
+  .gtwirl {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .theend {
+
+    display: grid;
+    box-sizing: border-box;
+    height: 220vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 0.5em;
+  }
+
+  .endstar {
+    align-self: center;
+    grid-column: 3/2;
+    grid-row: 1/2;
+  }
+
+  .endstarx {
+    width: 100%;
+    height: 100%;
+  }
+
+  .endstar1 {
+    align-self: center;
+    grid-column: 5/4;
+    grid-row: 1/2;
+  }
+
+  .endstar1x {
+    width: 100%;
+    height: 100%;
+  }
+
+  .endstar2 {
+    align-self: center;
+    grid-column: 7/6;
+    grid-row: 1/2;
+  }
+
+  .endstar2x {
+    width: 100%;
+    height: 100%;
+  }
+
+  .endtitle {
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
+    grid-column: 6/3;
+    grid-row: 2/3;
+  }
+
+  .endnotestitle {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    color: white;
+    grid-column: 6/3;
+    grid-row: 3/4;
+    align-self: flex-end;
+  }
+
+  .endnotes {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 6/3;
+    grid-row: 4/5;
+    margin-bottom: 10em;
+  }
+
+  .endportal {
+    align-self: center;
+    grid-column: 6/3;
+    grid-row: 5/8;
+    margin-bottom: 5em;
+  }
+
+  .endportalx {
+    width: 100%;
+    height: 100%;
+  }
+
+  #nebulax {}
+
+  #iballsgradient {
+    background: url(../images/main/iballsgradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  #cloudgradient {
+    background: url(../images/main/cloudgradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  #spingradient {
+    background: url(../images/main/spingradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  #ends {
+    background: url(../images/main/backgradient4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  #abouts {
+    background: url(../images/main/backgradient4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+
+  .aboutx {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 2em;
+
+  }
+
+}
